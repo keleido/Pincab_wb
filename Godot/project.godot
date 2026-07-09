@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Pincab_wb"
-config/features=PackedStringArray("4.7", "GL Compatibility")
+run/main_scene="uid://ds4gduf8660uj"
+config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[audio]
+
+buses/default_bus_layout="uid://h47xpq8rody3"
 
 [autoload]
 
@@ -20,6 +25,8 @@ MPF="*uid://c05iybd1a77mc"
 
 [display]
 
+window/size/viewport_width=1280
+window/size/viewport_height=1024
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
